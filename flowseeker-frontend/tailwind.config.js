@@ -7,17 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        main: '#a388ee',
-        mainAccent: '#9e66ff', // not needed for shadcn components
+        main: '#A3E636',
         overlay: 'rgba(0,0,0,0.8)', // background color overlay for alert dialogs, modals, etc.
   
         // light mode
-        bg: '#e3dff2',
+        bg: '#E0E7F1',
         text: '#000',
         border: '#000',
   
         // dark mode
-        darkBg: '#272733',
+        darkBg: '#2c312b',
         darkText: '#eeefe9',
         darkBorder: '#000',
         secondaryBlack: '#212121', // opposite of plain white, not used pitch black because borders and box-shadows are that color 
